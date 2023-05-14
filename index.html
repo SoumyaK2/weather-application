@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_app</title>
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://images.pexels.com/photos/132474/pexels-photo-132474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .div1{
+            color: #0C134F;
+            font-size: 2rem;  
+            text-shadow: 1px 1px white;          
+        }
+        .div1 h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;            
+        }
+        .label{
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <h1>Search Today's Weather :</h1>
+        <form action="/" method="post">
+            <label for="city" class="label">Enter your city : </label>
+            <input type="text" id="city" name="cityName">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+
+</html>
